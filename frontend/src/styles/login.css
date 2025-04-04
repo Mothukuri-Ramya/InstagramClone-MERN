@@ -1,0 +1,55 @@
+/* Center the entire page content */
+.login-container {
+    display: flex;
+    justify-content: center; /* ✅ Centers horizontally */
+    align-items: center; /* ✅ Centers vertically */
+    height: 100vh; /* Full height */
+    background-color: #fafafa; /* Instagram-like background */
+  }
+  
+  /* Style the login card */
+  .login-card {
+    width: 350px; /* ✅ Set fixed width */
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Reduce logo size */
+  .logo {
+    width: 80px; /* ✅ Reduce logo width */
+    height: auto;
+    margin-bottom: 10px; /* ✅ Reduce space */
+  }
+  
+  /* Apply Instagram-like stylish text */
+  .instagram-text {
+    font-family: 'Pacifico', cursive; /* ✅ Instagram-style font */
+    font-size: 26px; /* ✅ Adjust size */
+    font-weight: bold;
+    margin-bottom: 15px; /* ✅ Reduce space */
+  }
+  
+  /* Input styling */
+  input {
+    width: 90%; /* ✅ Make inputs smaller */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6; /* ✅ Instagram blue */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
